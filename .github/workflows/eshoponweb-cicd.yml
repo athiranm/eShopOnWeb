@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: cloud-shell-storage-southeastasia
-  LOCATION: Southeast Asia
+  LOCATION: southeastasia
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 6eeb57d2-58f5-4fb4-900f-adccd3ef8353
   WEBAPP-NAME: eshoponweb-webapp-git
